@@ -16,7 +16,7 @@ The open-weight model landscape in 2026 is almost unrecognisable from two years 
 
 Meta's Llama 4 family is their most capable open release yet. The 8B and 70B variants are solid workhorses, but the standout is Llama 4 Scout — a 109B MoE (Mixture of Experts) model that uses only ~17B active parameters per token. On a good day it rivals GPT-4 on coding benchmarks, and it fits in 48GB of unified memory at Q4 quantisation. The license permits commercial use, and the community fine-tune ecosystem is already active.
 
-The smaller Llama 4 Maverick (17B active, 127B total MoE) is the sweet spot for local deployment — it runs on a single 24GB GPU and outperforms the original Llama 3 70B on most tasks. Meta has shipped a legitimately useful local model.
+The smaller Llama 4 Maverick (17B active, 127B total MoE) is the sweet spot for local deployment — it runs on a single [24GB GPU](https://amazon.com/s?k=rtx+3090+24gb&tag=YOUR-AMAZON-TAG) and outperforms the original Llama 3 70B on most tasks. Meta has shipped a legitimately useful local model.
 
 ### Qwen 3.5 — The Underestimated Powerhouse
 
@@ -30,7 +30,7 @@ DeepSeek's models excel at chain-of-thought reasoning and mathematics. DeepSeek-
 
 ### Mistral — Small Model Champions
 
-Mistral continues to punch above its weight with the Ministral and Mistral Small lines. Their 8B parameter model runs comfortably on a 16GB MacBook at full fp16 precision and remains the best "first model" for anyone new to local LLMs — it's fast, well-behaved, and the prompt formatting is simple.
+Mistral continues to punch above its weight with the Ministral and Mistral Small lines. Their 8B parameter model runs comfortably on a [16GB MacBook](https://amazon.com/s?k=macbook+air+16gb&tag=YOUR-AMAZON-TAG) at full fp16 precision and remains the best "first model" for anyone new to local LLMs — it's fast, well-behaved, and the prompt formatting is simple.
 
 ## Benchmark Reality
 
@@ -55,3 +55,5 @@ Tools like Ollama use these quantisations by default, and sites like [OpenRouter
 ## The Takeaway
 
 There has never been a better time to run models locally. The gap between open weights and closed APIs is narrowing fast, and the variety of available models means there's likely one that fits your specific hardware and use case. Start with Qwen 3.5 14B for general work, Llama 4 8B for coding, and explore from there. The only wrong choice is not trying at all.
+
+*Disclosure: Some links on this page are affiliate links. If you purchase through them, I may earn a small commission at no extra cost to you. I only recommend hardware I actually use.*

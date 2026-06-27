@@ -29,11 +29,11 @@ You need one piece of software that downloads models, manages them, and serves t
 
 This is where most people overthink it. Pick one model and get it running. The specific model matters far less than just starting.
 
-- **Mac with 8GB RAM** → `ollama run qwen3.5:4b` (fast, multilingual, capable)
-- **Mac with 16GB RAM** → `ollama run llama3.2` or `ollama run qwen3.5:7b`
-- **Mac with 24–36GB RAM** → `ollama run qwen3.5:14b` (the sweet spot)
-- **Windows/Linux with NVIDIA GPU** → same models, but expect 2–3x speed on GPU
-- **Any machine, minimal RAM** → `ollama run phi3:3.8b` or `ollama run gemma2:2b`
+- **[Mac with 8GB RAM](https://amazon.com/s?k=mac+mini+8gb&tag=YOUR-AMAZON-TAG)** → `ollama run qwen3.5:4b` (fast, multilingual, capable)
+- **[Mac with 16GB RAM](https://amazon.com/s?k=macbook+air+16gb&tag=YOUR-AMAZON-TAG)** → `ollama run llama3.2` or `ollama run qwen3.5:7b`
+- **[Mac with 24–36GB RAM](https://amazon.com/s?k=macbook+pro+36gb&tag=YOUR-AMAZON-TAG)** → `ollama run qwen3.5:14b` (the sweet spot)
+- **[Windows/Linux with NVIDIA GPU](https://amazon.com/s?k=nvidia+rtx+gpu&tag=YOUR-AMAZON-TAG)** → same models, but expect 2–3x speed on GPU
+- **[Any machine, minimal RAM](https://amazon.com/s?k=refurbished+laptop+16gb&tag=YOUR-AMAZON-TAG)** → `ollama run phi3:3.8b` or `ollama run gemma2:2b`
 
 **Don't** start with a 70B model. You'll be frustrated by the speed, tempted to buy hardware you don't need, and likely give up. A 7B–14B model on modern hardware gives you 95% of the utility for 10% of the resource cost.
 
@@ -115,3 +115,5 @@ The less friction between you and the model, the more you'll use it. And using i
 The perfect setup doesn't exist. Start simple — Ollama + Open WebUI + one model — and iterate from there. Run it for a week. Notice what frustrates you. Fix that one thing. Repeat. Within a month you'll have a stack that's genuinely useful and entirely yours.
 
 The barrier to entry has never been lower. Your hardware is ready. Your tools are free. Go set it up.
+
+*Disclosure: Some links on this page are affiliate links. If you purchase through them, I may earn a small commission at no extra cost to you. I only recommend hardware I actually use.*

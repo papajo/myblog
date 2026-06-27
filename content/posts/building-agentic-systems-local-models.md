@@ -46,7 +46,7 @@ I run a local agent that can edit files, run tests, and commit changes. It uses:
 - A set of tools: `read_file`, `write_file`, `patch`, `terminal`
 - A safety guard: file writes are restricted to a project directory
 
-This handles routine refactoring, bug fixing, and test writing without supervision. The latency is higher than a cloud agent (3–5 seconds per step vs 1–2), but I can run as many steps as I need without worrying about API costs.
+This handles routine refactoring, bug fixing, and test writing without supervision. The latency is higher than a cloud agent (3–5 seconds per step vs 1–2), but I can run as many steps as I want without worrying about API costs. If you're building a similar setup, prioritising a machine with more [unified memory](https://amazon.com/s?k=apple+silicon+mac+64gb&tag=YOUR-AMAZON-TAG) over raw CPU speed will give you the best local agent experience.
 
 ### Research Agent
 
@@ -85,3 +85,5 @@ I've settled on a pattern of using simple custom agents for well-defined tasks a
 The next frontier is persistent memory for local agents — long-term storage that survives sessions and lets agents build cumulative knowledge. Projects like Mem0 and local implementations of MCP (Model Context Protocol) are making this practical. Within months, a locally-hosted agent will be able to maintain a weeks-long context, learn from its mistakes, and improve over time — all without phoning home.
 
 Local agents aren't just a toy. They're a genuinely viable alternative to cloud-based agent platforms, with the added benefits of privacy, zero ongoing costs, and complete customisability. If you haven't tried building one yet, start with a simple tool-using loop and a 14B model. The capabilities will surprise you.
+
+*Disclosure: Some links on this page are affiliate links. If you purchase through them, I may earn a small commission at no extra cost to you. I only recommend hardware I actually use.*

@@ -1,1 +1,23 @@
 theme = "PaperMod"
+baseURL = "https://aishowcase.qzz.io/"
+title = "AI Showcase"
+languageCode = "en-us"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "support"
+    name = "Support"
+    url = "/support/"
+    weight = 20
+
+[params]
+  description = "Practical guides for running open-source AI locally"
+
+[params.profileMode]
+  enabled = false

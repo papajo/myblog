@@ -66,7 +66,7 @@ For processing confidential documents:
 3. The text is chunked and embedded into LanceDB
 4. Queries go directly to the local model — no network calls allowed
 
-I set this up for a legal contact who needed to analyse contracts without sending them to any third party. The entire stack runs on a MacBook Air that stays in airplane mode during processing.
+I set this up for a legal contact who needed to analyse contracts without sending them to any third party. The entire stack runs on a [MacBook Air](https://amazon.com/s?k=macbook+air+m4&tag=YOUR-AMAZON-TAG) that stays in airplane mode during processing.
 
 ### Pattern 3: Personal Knowledge Base
 
@@ -99,3 +99,5 @@ But in exchange, you get something no cloud provider can offer: **guaranteed dat
 ## Getting Started
 
 If you want to try a privacy-first setup today: install Ollama, pull a 7B model, and use it with a local chat interface for a week. Don't send a single prompt to a cloud service. Most people find that after a few days, they don't miss the cloud models at all — the convenience of zero data-leakage anxiety more than compensates.
+
+*Disclosure: Some links on this page are affiliate links. If you purchase through them, I may earn a small commission at no extra cost to you. I only recommend hardware I actually use.*

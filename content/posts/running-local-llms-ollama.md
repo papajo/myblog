@@ -57,17 +57,19 @@ All of this runs on a $0/hour laptop, no API keys, no data leaving the machine.
 
 You don't need a datacenter. Here's what works today:
 
-| Hardware | Model Size | Tokens/sec |
-|----------|-----------|------------|
-| M1 Mac, 8GB | 3B–7B (Q4) | 15–25 |
-| M2 Mac, 16GB | 7B–14B (Q4) | 20–35 |
-| RTX 3090, 24GB | 13B–33B (Q4) | 40–60 |
-| M3 Max, 64GB | 70B (Q4) | 8–12 |
+|| Hardware | Model Size | Tokens/sec |
+||----------|-----------|------------|
+|| [M1 Mac, 8GB](https://amazon.com/s?k=mac+mini+m1&tag=YOUR-AMAZON-TAG) | 3B–7B (Q4) | 15–25 |
+|| [M2 Mac, 16GB](https://amazon.com/s?k=macbook+air+m2&tag=YOUR-AMAZON-TAG) | 7B–14B (Q4) | 20–35 |
+|| [RTX 3090, 24GB](https://amazon.com/s?k=rtx+3090+24gb&tag=YOUR-AMAZON-TAG) | 13B–33B (Q4) | 40–60 |
+|| [M3 Max, 64GB](https://amazon.com/s?k=macbook+pro+m3+max&tag=YOUR-AMAZON-TAG) | 70B (Q4) | 8–12 |
 
-The M-series Macs punch way above their weight thanks to unified memory. A 7B quantised model uses about 4–6 GB of RAM and runs at a comfortable reading speed on any Apple Silicon machine.
+The [M-series Macs](https://amazon.com/s?k=apple+silicon+mac&tag=YOUR-AMAZON-TAG) punch way above their weight thanks to unified memory. A 7B quantised model uses about 4–6 GB of RAM and runs at a comfortable reading speed on any Apple Silicon machine. If you're shopping for a machine optimised for local AI, prioritise unified memory over core count — a Mac with 24–48 GB of RAM will serve you better than a base model with more GPU cores.
 
 ## Getting Started Today
 
 If you're on macOS: `brew install ollama` and you're minutes away from your first local model. Linux is just a `curl` script. Once it's running, explore the model library at [ollama.com/library](https://ollama.com/library) — there are hundreds of models from tiny 1B code models up to 70B reasoning beasts.
 
 The barrier to local AI has never been lower. The hardware you already own is probably enough. Go pull a model and see what's possible.
+
+*Disclosure: Some links on this page are affiliate links. If you purchase through them, I may earn a small commission at no extra cost to you. I only recommend hardware I actually use and believe in.*
